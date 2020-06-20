@@ -14,11 +14,13 @@ git clone https://github.com/kriztiank/mediesuset-online.git
 cd backend
 npm install
 npm run develop
+login is provided for my teacher
 ```
 
 ### Start the frontend server
 
 ```bash
+open a new terminal
 cd frontend
 npm install
 npm run develop
