@@ -1,0 +1,63 @@
+/** buttons **/
+.btn {
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.center-btn {
+  display: block;
+  width: 12rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.btn-black {
+  color: white;
+  background: black;
+  width: 340px;
+  margin-top: 1rem;
+}
+
+.btn-black:hover {
+  background: #395f98;
+}
+
+.btn-red-ticket {
+  color: white;
+  background: #9e2e3b;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 60px;
+
+  cursor: pointer;
+}
+
+.btn-red-ticket:hover {
+  background: #ac324c;
+}
+
+.btn-red-newsletter {
+  color: white;
+  background: #9e2e3b;
+  width: 340px;
+}
+
+.btn-red-newsletter:hover {
+  background: #ac324c;
+}
+
+.btn-blue {
+  color: white;
+  background: #395f98;
+  margin-top: 1rem;
+}

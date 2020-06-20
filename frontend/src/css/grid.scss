@@ -1,0 +1,90 @@
+﻿/** grid **/
+h1 {
+  color: black;
+  text-align: center;
+}
+.white {
+  color: white;
+}
+/**THE GRID CONTAINER**/
+.grid-container {
+  display: grid;
+  grid-gap: 40;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 80px;
+  color: black;
+  margin-bottom: 40px;
+  // A-Å
+  div:nth-child(1) {
+    background: #292929;
+  }
+  div:nth-child(1):hover {
+    background: #aaaaaa;
+    cursor: pointer;
+  }
+  // RØD SCENE
+  div:nth-child(2) {
+    background: #292929;
+  }
+  div:nth-child(2):hover {
+    background: #ac324c;
+    cursor: pointer;
+  }
+  // BLÅ SCENE
+  div:nth-child(3) {
+    background: #292929;
+  }
+  div:nth-child(3):hover {
+    background: #395f98;
+    cursor: pointer;
+  }
+  // GRØN SCENE
+  div:nth-child(4) {
+    background: #292929;
+  }
+  div:nth-child(4):hover {
+    background: #638b3f;
+    cursor: pointer;
+  }
+  // LILLA SCENE
+  div:nth-child(5) {
+    background: #292929;
+  }
+  div:nth-child(5):hover {
+    background: #88267f;
+    cursor: pointer;
+  }
+}
+/**ALL DIVS IN CONTAINER**/
+.grid-container .grid {
+  border-bottom: 1px solid #fff;
+  background: #e8e8e8;
+}
+/**ALIGNMENT**/
+.grid {
+  /***************************
+   GRID - justify-items
+  ****************************/
+  display: grid;
+  /* LEFT */
+  /* justify-items: start; */
+
+  /* RIGHT */
+  /* justify-items: end; */
+
+  /* CENTER X AXIS */
+  justify-items: center;
+
+  /***************************
+   GRID - align-items
+  ****************************/
+
+  /* TOP */
+  /* align-items: start; */
+
+  /* BOTTOM */
+  /* align-items: end; */
+
+  /* CENTER Y AXIS*/
+  align-items: center;
+}

@@ -1,0 +1,88 @@
+/*********************************************
+Navigation
+**********************************************/
+/* Medium devices (tablets, 800px and down) */
+@media only screen and (max-width: 800px) {
+  .navbar {
+    /* stack logo and menu items */
+    height: 10rem;
+  }
+
+  .nav-center {
+    /* stack logo and menu items */
+    grid-template-columns: 1fr;
+  }
+
+  .nav-logo {
+    /* Center logo on X AXIS */
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  /* Center links on X AXIS */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nav-links li {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    // padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* styles go here */
+}
+
+/*********************************************
+Hero
+**********************************************/
+/* Medium devices (tablets, 800px and down) */
+@media only screen and (max-width: 800px) {
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/*********************************************
+Footer
+**********************************************/
+/* Medium devices (tablets, 800px and down) */
+// @media only screen and (max-width: 1000px) {
+//   .sponsor-section {
+//     img {
+//       margin-top: 10px;
+//       width: 12%;
+//     }
+//   }
+// }
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sponsor-section {
+    img {
+      margin-top: 10px;
+      width: 25%;
+    }
+  }
+}
+
+/*********************************************
+Dummy
+**********************************************/
+/* Medium devices (tablets, 800px and down) */
+@media only screen and (max-width: 800px) {
+   /* styles go here */
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* styles go here */
+}
