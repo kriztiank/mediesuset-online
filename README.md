@@ -1,6 +1,6 @@
 # Webdev project with Gatsby and Strapi
 
-https://mediesuset-online.netlify.app
+https://mediesuset-online.netlify.app/
 
 ### Getting started
 
