@@ -1,5 +1,7 @@
 # Webdev project with Gatsby and Strapi
 
+https://mediesuset-online.netlify.app
+
 ### Getting started
 
 **Clone the repository and install dependencies**
